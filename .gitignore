@@ -1,0 +1,43 @@
+# Dependencies
+/vendor/
+composer.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+/database/*.sqlite
+/database/*.sqlite-journal
+
+# Docker
+/docker/mysql/data/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+/logs/
+
+# Cache
+*.cache
+
+# Testing
+/phpunit.xml
+.phpunit.result.cache
+/coverage/
